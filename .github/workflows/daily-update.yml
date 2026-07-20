@@ -1,0 +1,46 @@
+name: Daily Veterans Benefits Source Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-benefits-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check official sources
+        run: python scripts/update_information.py
+      - name: Run debugger
+        run: python scripts/automated_debugger.py
+      - name: Run tests
+        run: python -m unittest discover -s tests
+      - name: Commit updated data
+        run: |
+          if git diff --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          git commit -m "chore: refresh official VA source status"
+          git push
