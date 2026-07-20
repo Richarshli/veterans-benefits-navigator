@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Independent Veterans Benefits Navigator linking to official VA resources.">
+  <title>Veterans Benefits Navigator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Independent civic-information project</p>
+      <h1>Veterans Benefits Navigator</h1>
+      <p class="lead">Find official VA information for health care, disability, education, housing, pensions, survivors, caregivers, burial benefits, and more.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://www.va.gov/" target="_blank" rel="noopener">Open VA.gov</a>
+        <a class="button secondary" href="https://www.va.gov/find-locations/" target="_blank" rel="noopener">Find a VA location</a>
+      </div>
+      <p id="updated" class="updated">Loading source verification status…</p>
+    </div>
+  </header>
+
+  <section class="crisis" aria-label="Veterans Crisis Line">
+    <div class="wrap crisis-inner">
+      <strong>Need immediate help?</strong>
+      <span>Contact the Veterans Crisis Line: call <a href="tel:988">988</a> and press 1, text <a href="sms:838255">838255</a>, or use the official online chat.</span>
+      <a class="button crisis-button" href="https://www.veteranscrisisline.net/" target="_blank" rel="noopener">Crisis Line options</a>
+    </div>
+  </section>
+
+  <main id="main" class="wrap main-grid">
+    <section class="content">
+      <div class="notice" role="note">
+        <strong>Eligibility notice:</strong> This dashboard does not decide eligibility or file claims. Verify requirements and deadlines directly with VA.
+      </div>
+
+      <div class="toolbar" aria-label="Benefit search and filters">
+        <label>
+          <span>Search benefits</span>
+          <input id="search" type="search" placeholder="Try disability, housing, caregiver…">
+        </label>
+        <label>
+          <span>Category</span>
+          <select id="category"><option value="all">All categories</option></select>
+        </label>
+        <button id="clear" class="button light" type="button">Clear filters</button>
+      </div>
+
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+      <div id="benefit-grid" class="benefit-grid" aria-live="polite"></div>
+      <div id="empty" class="empty" hidden>No matching benefits were found.</div>
+    </section>
+
+    <aside class="sidebar">
+      <section class="panel">
+        <h2>Quick official actions</h2>
+        <nav class="quick-links" aria-label="Official VA actions">
+          <a href="https://www.va.gov/disability/file-disability-claim-form-21-526ez/" target="_blank" rel="noopener">File a disability claim</a>
+          <a href="https://www.va.gov/claim-or-appeal-status/" target="_blank" rel="noopener">Check claim or appeal status</a>
+          <a href="https://www.va.gov/health-care/how-to-apply/" target="_blank" rel="noopener">Apply for VA health care</a>
+          <a href="https://www.va.gov/education/how-to-apply/" target="_blank" rel="noopener">Apply for education benefits</a>
+          <a href="https://www.va.gov/housing-assistance/home-loans/how-to-request-coe/" target="_blank" rel="noopener">Request a home-loan COE</a>
+          <a href="https://www.va.gov/get-help-from-accredited-representative/" target="_blank" rel="noopener">Find accredited assistance</a>
+        </nav>
+      </section>
+
+      <section class="panel">
+        <h2>Source health</h2>
+        <div id="source-health">Loading…</div>
+      </section>
+
+      <section class="panel">
+        <h2>Privacy reminder</h2>
+        <p>Never post Social Security numbers, medical records, claim documents, passwords, or VA file numbers in public GitHub issues.</p>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Unofficial and independent. Not endorsed by the U.S. Department of Veterans Affairs or any federal agency.</p>
+      <p><a href="DISCLAIMER.md">Disclaimer</a> · <a href="SECURITY.md">Security</a> · <a href="docs/project-overview.md">Documentation</a></p>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

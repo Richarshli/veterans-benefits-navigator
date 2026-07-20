@@ -1,0 +1,16 @@
+{
+  "allowed_domains": ["va.gov", "benefits.va.gov", "caregiver.va.gov", "cem.va.gov", "veteranscrisisline.net"],
+  "timeout_seconds": 25,
+  "sources": [
+    {"id":"va-home","name":"VA.gov","url":"https://www.va.gov/"},
+    {"id":"health","name":"VA Health Care","url":"https://www.va.gov/health-care/"},
+    {"id":"disability","name":"Disability Compensation","url":"https://www.va.gov/disability/"},
+    {"id":"education","name":"Education Benefits","url":"https://www.va.gov/education/"},
+    {"id":"home-loans","name":"VA Home Loans","url":"https://www.va.gov/housing-assistance/home-loans/"},
+    {"id":"pension","name":"VA Pension","url":"https://www.va.gov/pension/"},
+    {"id":"caregivers","name":"Family Caregiver Benefits","url":"https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/"},
+    {"id":"burials","name":"Burial and Memorial Benefits","url":"https://www.va.gov/burials-memorials/"},
+    {"id":"survivors","name":"Survivor Benefits","url":"https://www.va.gov/family-and-caregiver-benefits/survivor-compensation/"},
+    {"id":"crisis","name":"Veterans Crisis Line","url":"https://www.veteranscrisisline.net/"}
+  ]
+}

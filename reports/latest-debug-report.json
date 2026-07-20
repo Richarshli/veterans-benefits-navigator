@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-07-20T02:42:48.071381+00:00",
+  "status": "PASSED",
+  "checks": [
+    {
+      "name": "Required files",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "JSON validation",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "HTML parse",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "Python syntax",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "JavaScript syntax",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "Benefit data validation",
+      "passed": true,
+      "detail": "OK"
+    }
+  ]
+}
