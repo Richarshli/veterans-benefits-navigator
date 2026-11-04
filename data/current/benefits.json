@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-03T17:05:37.644474+00:00",
+  "last_checked": "2026-11-04T17:17:38.352095+00:00",
   "benefits": [
     {
       "id": "health-care",
@@ -176,7 +176,7 @@
       "url": "https://www.va.gov/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:34.613973+00:00"
+      "checked_at": "2026-11-04T17:17:36.208204+00:00"
     },
     {
       "id": "health",
@@ -184,7 +184,7 @@
       "url": "https://www.va.gov/health-care/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:34.749928+00:00"
+      "checked_at": "2026-11-04T17:17:36.456323+00:00"
     },
     {
       "id": "disability",
@@ -192,7 +192,7 @@
       "url": "https://www.va.gov/disability/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:36.351998+00:00"
+      "checked_at": "2026-11-04T17:17:36.679756+00:00"
     },
     {
       "id": "education",
@@ -200,7 +200,7 @@
       "url": "https://www.va.gov/education/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:36.485598+00:00"
+      "checked_at": "2026-11-04T17:17:36.910475+00:00"
     },
     {
       "id": "home-loans",
@@ -208,7 +208,7 @@
       "url": "https://www.va.gov/housing-assistance/home-loans/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:36.621401+00:00"
+      "checked_at": "2026-11-04T17:17:37.126813+00:00"
     },
     {
       "id": "pension",
@@ -216,7 +216,7 @@
       "url": "https://www.va.gov/pension/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:36.758797+00:00"
+      "checked_at": "2026-11-04T17:17:37.341514+00:00"
     },
     {
       "id": "caregivers",
@@ -224,7 +224,7 @@
       "url": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:36.934776+00:00"
+      "checked_at": "2026-11-04T17:17:37.561933+00:00"
     },
     {
       "id": "burials",
@@ -232,7 +232,7 @@
       "url": "https://www.va.gov/burials-memorials/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:37.067400+00:00"
+      "checked_at": "2026-11-04T17:17:37.799234+00:00"
     },
     {
       "id": "survivors",
@@ -240,7 +240,7 @@
       "url": "https://www.va.gov/family-and-caregiver-benefits/survivor-compensation/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:37.206441+00:00"
+      "checked_at": "2026-11-04T17:17:38.027870+00:00"
     },
     {
       "id": "crisis",
@@ -248,7 +248,7 @@
       "url": "https://www.veteranscrisisline.net/",
       "ok": true,
       "status": 200,
-      "checked_at": "2026-11-03T17:05:37.644313+00:00"
+      "checked_at": "2026-11-04T17:17:38.351948+00:00"
     }
   ]
 }
